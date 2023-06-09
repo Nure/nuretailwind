@@ -5,82 +5,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="output.css">
+
+    <meta name="description" content="This is a super cool rendering site....">
+
+    <!-- OGP -->
+    <meta property="og:title" content="Nure's Profile...">
+    <meta property="og:description" content="This is my personal web site....">
+    <meta property="og:image" content="image_url">
+    <meta property="og:url" content="https://nuresiddiq.com">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="/output.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>Responsive | Web</title>
+    <title>ViFlix | Render</title>
 </head>
 
-<body class="bg-dark mx-10 md:mx-20 text-white">
+<body class="bg-dark text-white mx-10 md:mx-20">
     <header class="flex align-middle justify-between mt-8">
         <div>
-            <img width="110" src="./assets/V-flix.png" alt="">
+            <img width="110" src="/assets/V-flix.png" alt="">
         </div>
         <div>
-            <a class="bg-primary py-2 px-3 rounded" href="">Sign In</a>
+            <a class="bg-primary py-2 px-3 hover:bg-secondary" href="">Sign In</a>
         </div>
     </header>
+    <!-- Hero section -->
+    <section class="w-full h-96 bg-no-repeat bg-cover mt-10 rounded-xl"
+        style="background-image: url('./assets/hero.jpeg');">
 
-    <section class="w-full h-96 mt-3 bg-no-repeat bg-cover flex flex-col justify-center md:mt-5"
-        style="background-image: url('./assets/hero.jpeg'); opacity:.8">
-        <div class="ml-5 md:ml-20">
-            <h1 class="text-5xl font-extrabold lg:text-6xl mb-2">Unlimited Entertainment</h1>
-            <h3 class="text-4xl font-bold mb-2">Plans now start at USD2.99/month.</h3>
-            <p class="text-2xl ">Ready to watch? Enter your email to create or restart your membership.
+        <div class="text-7xl">Hello there</div>
+    </section>
+
+
+    <section class="mt-10 md:flex items-center justify-between">
+        <div data-aos="fade-right">
+            <p class="text-4xl mb-2">Enjoy on your TV</p>
+            <p class="text-xl">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.TV
             </p>
-            <div class="mt-3">
-                <input class="p-3 rounded bg-gray-300" type="text" placeholder="Email address">
-                <button class="bg-primary p-3 rounded ml-1">Get Started</button>
-            </div>
+        </div>
+        <div data-aos="fade-left">
+            <img src="/assets/enjoy.png" alt="">
         </div>
     </section>
 
-    <section class="mt-20 md:flex items-center justify-between">
-        <div data-aos="zoom-in">
-            <p class="text-5xl mb-3">Enjoy on your TV</p>
-            <p class="text-xl">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.
-
-            </p>
-        </div>
-        <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-            <img src="./assets/enjoy.png" alt="">
-        </div>
-    </section>
-
-    <section class="mt-20 md:flex items-center justify-between flex-row-reverse">
-        <div data-aos="zoom-in-left">
-            <p class="text-5xl mb-3">Watch everywhere</p>
+    <section class="mt-10 md:flex items-center justify-between md:flex-row-reverse">
+        <div data-aos="fade-up-right">
+            <p class="text-4xl mb-2">Watch everywhere</p>
             <p class="text-xl">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
             </p>
         </div>
-        <div data-aos="zoom-in-right">
-            <img src="./assets/watch.png" alt="">
+        <div data-aos="fade-up-left">
+            <img src="/assets/watch.png" alt="">
         </div>
     </section>
-    <section class="mt-20 md:flex items-center justify-between">
-        <div data-aos="fade-up" data-aos-duration="3000">
-            <p class="text-5xl mb-3">Create profiles for kids</p>
-            <p class="text-xl">Send kids on adventures with their favorite characters in a space made just for them—free
-                with your membership.
+    <section class="mt-10 md:flex items-center justify-between">
+        <div data-aos="flip-left">
+            <p class="text-4xl mb-2">Enjoy on your TV</p>
+            <p class="text-xl">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.TV
+            </p>
+        </div>
+        <div data-aos="flip-right">
+            <img src="/assets/enjoy.png" alt="">
+        </div>
+    </section>
+
+    <section class="mt-10 md:flex items-center justify-between md:flex-row-reverse">
+        <div>
+            <p class="text-4xl mb-2">Watch everywhere</p>
+            <p class="text-xl">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
             </p>
         </div>
         <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-            <img src="./assets/kids.png" alt="">
-        </div>
-    </section>
-
-    <section class="mt-20 md:flex items-center justify-between flex-row-reverse">
-        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-            <p class="text-5xl mb-3">Download your shows to watch offline
-
-            </p>
-            <p class="text-xl">Save your favorites easily and always have something to watch.
-            </p>
-        </div>
-        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-            <img src="./assets/offline.png" alt="">
+            <img src="/assets/watch.png" alt="">
         </div>
     </section>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script>
         AOS.init();
     </script>
